@@ -76,8 +76,8 @@ const GalleryGrid = () => {
                 rowHeight={30}
                 margin={[10, 10]}
                 containerPadding={[15, 15]}
-                isResizable={true}
-                isDraggable={true}
+                isResizable={false}
+                isDraggable={(width) => width >= 1200}
             >
                 {layouts.lg.map((item, index) => (
                     <div className='rounded-xl overflow-hidden' key={item.i}>
