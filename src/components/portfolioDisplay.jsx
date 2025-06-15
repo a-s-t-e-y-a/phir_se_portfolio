@@ -32,7 +32,7 @@ export default function PortfolioDisplay() {
                     <div>
 
                         {/* Name */}
-                        <h1 className="tracking-tighter antialiased text-4xl md:text-4xl font-semibold text-white mb-4">
+                        <h1 className=" antialiased text-4xl md:text-3xl font-normal text-white mb-4">
                             I'm Krishna Seth
                         </h1>
 
