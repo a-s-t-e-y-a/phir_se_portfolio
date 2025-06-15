@@ -1,9 +1,9 @@
 export default function BasicInfo(){
     return (
         <>
-            <div className="p-4 text-lg leading-8 text-[#c0c0c0]">
+            <div className=" text-lg leading-8 text-[#c0c0c0] text-balance">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit culpa quaerat cupiditate hic accusamus fuga beatae magni voluptatum? Repellat illum explicabo ipsum fugiat corporis quaerat voluptatibus optio maxime soluta ea?
+                    Full Stack Developer learning Go and DevOps, with a passion for IEMs and Fighter Jets
                 </p>
             </div>
         </>

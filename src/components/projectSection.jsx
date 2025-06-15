@@ -37,17 +37,19 @@ import { SiReactivex } from "react-icons/si";
 import { Box, Lock, Search, Settings, Sparkles } from "lucide-react";
 import { GlowingEffect } from "./ui/glowing-effect";
 import SectionHeading from "./sectionSubHeading";
+import ComingSoon from "./comingSoon";
 
 export default function ProjectSection() {
     return (
         <div className="mt-16">
             <SectionHeading heading="Projects"/>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <ComingSoon/>
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                 <GridItem heading="Lorem ipsum dolor sit amet" sub_heading="Lorem ipsum dolor sit amet, consectetur" />
                 <GridItem heading="Lorem ipsum dolor sit amet" sub_heading="Lorem ipsum dolor sit amet, consectetur" />
                 <GridItem heading="Lorem ipsum dolor sit amet" sub_heading="Lorem ipsum dolor sit amet, consectetur" />
                 <GridItem heading="Lorem ipsum dolor sit amet" sub_heading="Lorem ipsum dolor sit amet, consectetur" />
-            </div>
+            </div> */}
         </div>
     );
 }

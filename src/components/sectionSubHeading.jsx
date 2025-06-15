@@ -5,7 +5,7 @@ export default function SectionHeading({
 }) {
     return (
         <div className="flex items-center gap-4 text-xl mb-8">
-            <FaCircleDot color="green" size={16} /> <p>{heading}
+            <FaCircleDot color="green" size={16} /> <p className="text-[#c0c0c0]">{heading}
             </p>
         </div>
     )

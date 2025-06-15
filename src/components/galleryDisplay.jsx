@@ -4,6 +4,7 @@ import 'react-grid-layout/css/styles.css';
 import { FaCircleDot } from 'react-icons/fa6';
 import SectionHeading from './sectionSubHeading';
 import './gallery.css';
+import ComingSoon from './comingSoon';
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
@@ -66,9 +67,10 @@ const GalleryGrid = () => {
 
         <>
             <div className='mt-16 text-[#c0c0c0]'>
-                <SectionHeading heading="gallery" />
+                <SectionHeading heading="Gallery" />
             </div>
-            <ResponsiveGridLayout
+            <ComingSoon/>
+            {/* <ResponsiveGridLayout
                 className="gallery-layout"
                 layouts={layouts}
                 breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
@@ -88,7 +90,7 @@ const GalleryGrid = () => {
                         />
                     </div>
                 ))}
-            </ResponsiveGridLayout>
+            </ResponsiveGridLayout> */}
         </>
 
     );

@@ -12,17 +12,20 @@ import ShareButton from './components/shareButton'
 function App() {
   return (
     <>
-      <div className='max-w-xl mx-auto text-white m-8 rounded-2xl p-2'>
+      <div className='max-w-xl mx-auto text-white m-8 rounded-2xl p-2 '>
         <PortfolioDisplay />
-        <BasicInfo />
+        {/* <BasicInfo /> */}
         <div className='p-4 flex gap-2'>
           <ShareButton iconName="twitter" />
           <ShareButton iconName="github" />
           <ShareButton iconName="youtube" />
         </div>
-        <ProjectSection />
-        <BlogSection />
-        <GalleryGrid />
+        <div className='p-4'>
+          <ProjectSection />
+          <BlogSection />
+          <GalleryGrid />
+        </div>
+
       </div>
     </>
   )
