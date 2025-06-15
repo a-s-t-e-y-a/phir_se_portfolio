@@ -4,8 +4,8 @@ export default function SectionHeading({
     heading
 }) {
     return (
-        <div className="flex items-center gap-4 text-xl mb-8">
-            <FaCircleDot color="green" size={16} /> <p className="text-[#c0c0c0]">{heading}
+        <div className="flex items-center gap-4 text-2xl font-medium mb-8">
+            <p className="text-white">{heading}
             </p>
         </div>
     )

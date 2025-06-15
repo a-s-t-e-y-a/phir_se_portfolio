@@ -16,7 +16,7 @@ export default function PortfolioDisplay() {
                 setButtonText("Copied!"); // Change button text
                 setTimeout(() => {
                     setButtonText("Copy Email"); // Revert button text after 2 seconds
-                }, 2000);
+                }, 500);
             })
             .catch(err => {
                 setButtonText("Failed to copy"); // Optional: feedback for error
@@ -32,7 +32,7 @@ export default function PortfolioDisplay() {
                     <div>
 
                         {/* Name */}
-                        <h1 className=" antialiased text-4xl md:text-3xl font-normal text-white mb-4">
+                        <h1 className=" antialiased text-4xl md:text-3xl text-white mb-4">
                             I'm Krishna Seth
                         </h1>
 
